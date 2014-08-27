@@ -1,0 +1,12 @@
+name          'michaeltchapman-elasticsearch'
+version       '0.1.0'
+source        'https://github.com/michaeltchapman/puppet-elasticsearch'
+author        'michaeltchapman'
+license       'Apache 2.0'
+summary       'Manages Elasticsearch resources'
+description   'Manages Elasticsearch resources'
+project_page  'https://github.com/michaeltchapman/puppet-elasticsearch'
+
+dependency 'puppetlabs/apt'
+dependency 'puppetlabs/stdlib'
+dependency 'reidmv/yamlfile'
